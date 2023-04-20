@@ -37,3 +37,11 @@ sports.pop()
 print(sports)
 sports.remove('nurse')
 print(sports)
+#6
+raccoon=['Настя - трактор']
+for i in raccoon:
+    if i in 'Настя':
+        print('Настя - самокат')
+    else:
+        print('Настя - трактор')
+
